@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./App.css";
 import Router from "./routes";
+import "./styles/fonts/font.css";
+import "./App.css";
 
 function App() {
 	return (
