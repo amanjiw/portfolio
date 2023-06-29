@@ -48,6 +48,11 @@ const SideMenuContainer = styled.div`
     top: 50%;
     transform: translateY(-50%);
     left: 50px;
+    display: none;
+
+    @media (min-width: 1200px) {
+        display: flex;
+    }
 `;
 
 export default SideMenu;

@@ -28,7 +28,7 @@ function MenuItem({ to, icon }: Props) {
             <Link
                 spy={true}
                 activeClass="active"
-                className="default"
+                className="default "
                 smooth
                 duration={500}
                 to={to}
