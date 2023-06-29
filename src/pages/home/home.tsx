@@ -1,16 +1,16 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
-import SideMenu from "../../components/side-menu/SideMenu";
+
+import HomeComponent from "../../components/home/Home";
 
 type Props = {};
 
 function Home({}: Props) {
-	return (
-		<div className="">
-			<SideMenu />
-			<Outlet />
-		</div>
-	);
+    return (
+        <>
+            <HomeComponent />
+            <Outlet />
+        </>
+    );
 }
 
 export default Home;
