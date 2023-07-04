@@ -43,10 +43,17 @@ const IntroDuction = ({ sectionId }: Props) => {
                     text="سلام! من آمانجم، برنامه نویس و طراح وب."
                 />
             </h1>
-
+            {/* 
             <p className="py-10  w-3/5 text-gray-400 ">
                 من چیزهای ساده و زیبا را طراحی و کدنویسی می‌کنم و کاری را که
                 انجام میدهم دوست دارم. به همین سادگی :){" "}
+            </p> */}
+            <p className="py-10  w-3/5 text-gray-400 ">
+                <Typewriter
+                    text="من چیزهای ساده و زیبا را طراحی و کدنویسی می‌کنم و کاری را که
+                انجام میدهم دوست دارم. به همین سادگی :)"
+                    delay={10}
+                />
             </p>
             <div className="mt-24 flex gap-32 data">
                 <div className="flex flex-col items-center justify-center">
