@@ -1,4 +1,3 @@
-import React from "react";
 import Badge from "../common/Badge";
 import { styled } from "styled-components";
 import Typewriter from "../common/Typewriter";
