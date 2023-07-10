@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Router from "./routes";
 import "./styles/fonts/font.css";
 import "./App.css";

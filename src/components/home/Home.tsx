@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "styled-components";
 
 import SideMenu from "../side-menu/SideMenu";
@@ -8,7 +7,7 @@ import IntroDuction from "../introduction/IntroDuction";
 
 type Props = {};
 
-const Home = (props: Props) => {
+const Home = ({}: Props) => {
     return (
         <Container className="flex   justify-center">
             {" "}

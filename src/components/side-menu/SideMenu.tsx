@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { motion, Variants } from "framer-motion";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import { links } from "./nav-link";
 import MenuItem from "./MenuItem";
 import { useSideMenu } from "./useSideMenu";

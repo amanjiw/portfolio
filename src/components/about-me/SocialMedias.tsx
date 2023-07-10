@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { styled } from "styled-components";
 import {
@@ -6,6 +5,7 @@ import {
     UilInstagram,
     UilTelegram,
     UilSkypeAlt,
+    // @ts-ignore
 } from "@iconscout/react-unicons";
 
 type Props = {};
