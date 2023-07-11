@@ -4,6 +4,7 @@ import SideMenu from "../side-menu/SideMenu";
 import { NAV_NAME } from "../side-menu/nav-link";
 import AboutMe from "../about-me/AboutMe";
 import IntroDuction from "../introduction/IntroDuction";
+import Resume from "../resume/Resume";
 
 type Props = {};
 
@@ -15,6 +16,7 @@ const Home = ({}: Props) => {
             <SideMenu />
             <div className="mt-40   lg:-translate-x-40 w-full  lg:w-[60%] ">
                 <IntroDuction sectionId={NAV_NAME.HOME} />
+                <Resume sectionId={NAV_NAME.CV} />
                 {/* <div id={NAV_NAME.ABOUT} style={{ height: "500px" }}>
                     <h1 className="  font-bold ">ABOUT</h1>
                 </div>
